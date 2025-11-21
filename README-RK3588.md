@@ -140,7 +140,7 @@ python clip_demo_app_opencv/dx_realtime_demo.py
 - 添加文本: 在终端输入句子并按Enter
 - 删除最后一句: 输入'del'并按Enter
 - 退出程序: 输入'quit'并按Enter
-- 相机模式: `python dx_realtime_demo.py --features_path 0`
+- 相机模式: `python clip_demo_app_opencv/dx_realtime_demo.py --features_path 0`
 
 3. **视频批处理演示**:
 ```bash
@@ -433,7 +433,7 @@ python clip_demo_app_opencv/dx_realtime_demo.py
 - Add text: Type sentence in terminal and press Enter
 - Delete last sentence: Type 'del' and press Enter
 - Exit program: Type 'quit' and press Enter
-- Camera mode: `python dx_realtime_demo.py --features_path 0`
+- Camera mode: `python clip_demo_app_opencv/dx_realtime_demo.py --features_path 0`
 
 3. **Video Batch Demo**:
 ```bash
