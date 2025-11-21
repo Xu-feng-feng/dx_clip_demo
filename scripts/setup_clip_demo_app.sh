@@ -270,11 +270,15 @@ if [ ! -d "$DXRT_SRC_PATH" ]; then
 fi
 
 # Detect system architecture (amd64 or aarch64)
+# Note: aarch64 includes RK3588-based devices (Orange Pi 5/5+, Rock 5B, etc.)
+# For detailed RK3588 setup instructions, see README-RK3588.md
 ARCH_TYPE=$(uname -m)
 if [[ "$ARCH_TYPE" == "x86_64" ]]; then
   ARCH_TYPE="amd64"
 elif [[ "$ARCH_TYPE" == "aarch64" ]]; then
   ARCH_TYPE="aarch64"
+  echo "ℹ️  Detected aarch64 architecture (supports RK3588 devices)"
+  echo "📋 For RK3588-specific guidance, see: README-RK3588.md"
 else
   print_colored_v2 "WARNING" "Unsupported architecture: $ARCH_TYPE"
   exit 1
