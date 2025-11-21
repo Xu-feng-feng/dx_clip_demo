@@ -39,7 +39,7 @@ python clip_demo_app_opencv/dx_realtime_demo.py
 |------|---------|
 | 内存不足 | `sudo fallocate -l 4G /swapfile && sudo mkswap /swapfile && sudo swapon /swapfile` |
 | PyQt5安装失败 | `sudo apt-get install python3-pyqt5 python3-pyqt5.qtmultimedia` |
-| 性能不佳 | 设置CPU为性能模式: `echo performance \| sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor` |
+| 性能不佳 | 设置CPU为性能模式: `echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor` |
 | 过热 | 添加散热风扇或降低通道数 |
 
 ### 推荐配置
@@ -94,7 +94,7 @@ python clip_demo_app_opencv/dx_realtime_demo.py
 |-------|-----------|
 | Out of memory | `sudo fallocate -l 4G /swapfile && sudo mkswap /swapfile && sudo swapon /swapfile` |
 | PyQt5 install fails | `sudo apt-get install python3-pyqt5 python3-pyqt5.qtmultimedia` |
-| Poor performance | Set CPU to performance mode: `echo performance \| sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor` |
+| Poor performance | Set CPU to performance mode: `echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor` |
 | Overheating | Add cooling fan or reduce channel count |
 
 ### Recommended Configurations
