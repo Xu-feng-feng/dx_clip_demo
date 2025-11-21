@@ -2,6 +2,10 @@
 
 ## CLIP DEMO using PyQT5 UI Framework
 
+> **📋 特别提示 / Special Note**: 如果您使用RK3588设备（如Orange Pi 5/5+），请参考 [RK3588构建指南](./README-RK3588.md) 获取详细的构建说明和优化建议。
+> 
+> If you are using an RK3588 device (e.g., Orange Pi 5/5+), please refer to the [RK3588 Build Guide](./README-RK3588.md) for detailed build instructions and optimization recommendations.
+
 ---
 ### Pre-Requisite
 #### Get assets (input videos and prebuilt CLIP AI model) files
